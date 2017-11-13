@@ -4,6 +4,4 @@ Para colaborar, faça um *pull request* com seu código, tabelas, folders, etc. 
 
 Colaboradores: 
 
-**Ainda não há colaboradores para este repositório** - Se você for um colaborador, faça também um *pull request* com seu nome aqui
-
-Formato: Nome Sobrenome - Twitter ou Link para site
+13/11/2017 - Marcelo Alves - [marceloalvesuff](https://github.com/marceloalvesuff)
