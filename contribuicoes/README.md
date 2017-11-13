@@ -4,6 +4,6 @@ Para colaborar, faça um *pull request* com seu código, tabelas, folders, etc. 
 
 Quaisquer *pull requests* deverão necessariamente ser feitos no *branch* [contribuições](https://github.com/voltdatalab/Atlas-Analytics/tree/contribuicoes).
 
-Colaboradores: 
+## Colaboradores: 
 
 13/11/2017 - Marcelo Alves - [marceloalvesuff](https://github.com/marceloalvesuff)
