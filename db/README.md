@@ -1,4 +1,4 @@
-# Banco de Dados do Atlas da Notícia
+﻿# Banco de Dados do Atlas da Notícia
 
 O baco de dados do **Atlas da Notícia** foi concebido para ser completo e, ao mesmo tempo, fácil de utilizar. Tabelas em Excel, Google Sheets e CSV são fáceis, mas, devido ao volume de informações, podem ser uma alternativa lenta para muitos computadores, além de trabalhosa (são diversos arquivos).
 
@@ -14,6 +14,15 @@ Esse arquivo contém todas as tabelas brutas utilizadas no Atlas, assim como tab
 
 Ele também contém *views*, ou seja, recortes dos dados já realizados pela equipe do Volt Data Lab, como total consolidado de veículos, ou apenas de jornais e apenas de online, ou ainda a taxa a cada 100 mil habitantes.
 
-Para visualizar a totalidades dos dados contidos apenas no levantamento do Atlas, vá para a aba *Execute SQL* e digite: `SELECT * FROM atlas`. Isso lhe dará acesso a todas as informações necessárias. 
+Para visualizar as tabelas e views,  vá para a aba *Execute SQL*, digite: `SELECT * FROM nome_tabela` e pressione F5 ou Ctrl+R. Por exemplo, para acessar os dados contidos apenas no levantamento do Atlas, digite: `SELECT * FROM atlas`. Para ver o número de jornais impressos mapeados por regiões metropolitanas, digite: SELECT * FROM atlas_slim_rm_idhm_jornal`, e assim por diante.
+Isso lhe dará acesso a todas as informações necessárias.
 
-Para filtrar as informações apenas por Estado, por exemplo, você pode rodar o comando: `SELECT * FROM atlas where UF = "MT"`, o que lhe retornaria os resultados relativos ao Mato Grosso do Sul.
+Para filtrar as informações das tabelas, por exemplo, apenas por Estado, você pode rodar o comando: `SELECT * FROM atlas where UF = "MT"`, o que lhe retornaria os resultados relativos ao Mato Grosso da tabela com os levantamentos do atlas. 
+
+Para ordenar os resultados em ordem crescente ou descrescente de uma coluna, acrescente ao final do código: `ORDER BY nome_coluna ASC` para crescente e `ORDER BY nome_coluna DESC` para decrescente. No exemplo anterior, para visualizar a lista dos veículos mapeados no Mato Grosso por ordem alfabética, o comando seria: `SELECT * FROM atlas where UF = "MT" ORDER BY nome_coluna ASC` 
+
+Se quiser baixar as visualizações em .csv, clique em  `Export to CSV`.
+
+
+
+
